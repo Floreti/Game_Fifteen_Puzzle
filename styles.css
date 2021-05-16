@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+}
+
+#main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#board-main {
+    align-content: center;
+    /*why is it not working?*/
+    padding: 25px 33% 25px 33%
+}
+
+#board {
+    width: 100%;
+    align-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: teal;
+    grid-gap: 10px;
+}
+
+.tile-item {
+    text-align: center;
+    border-left: 4px solid grey;
+    border-right: 4px solid pink;
+    border-top: 4px solid pink;
+    border-bottom: 4px solid grey;
+    background-color: #ff99aa;
+    font-size: 4em;
+    margin: 5px 5px ;
+    padding: 5px 5px;
+}
