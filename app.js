@@ -27,7 +27,7 @@ function countTimer() {
 
         //on click move to empty space function
         
-        // loop check if all tieles are ligned up in order.
+        // loop check if all tiles are ligned up in order.
 
 
         
